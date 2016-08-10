@@ -1,0 +1,80 @@
+.navbar .navbar-brand {
+    font-size: 20px;
+}
+.navbar .navbar-nav {
+    font-size: 11px;
+}
+
+#nav {
+    background-color: #fafafa;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+#about {
+    background-color: #A9CCE3;
+    height: 685px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+#about1 {
+  border-radius: 5px;
+  height: 500px;
+  width: 750px;
+  margin: 0 auto;
+  padding-top: 15px;
+  font-size: 30px;
+  background: #ccc;
+  font-family: 'Monaco', 'Courier New';
+  text-align: left;
+  font-size: 13px;
+  color: #fafafa;
+}
+
+#console {
+  width: 670px;
+  padding: 40px;
+  height: 500px;
+  width: 750px;
+  margin: 0 auto;
+  background: #383737;
+}
+
+#resume {
+    background-color: #ddd;
+    height: 685px;
+    padding: 50px;
+}
+
+#resume h4 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 0.2em;
+}
+
+#work {
+    background-color: #A9CCE3;
+    height: 685px;
+}
+
+#contact {
+    background-color: #ddd;
+    height: 685px;
+}
+
+#footer{
+  background: #fafafa;
+  min-height: 50px;
+  text-align: left;
+  color: #b1b1b1;
+  padding: 15px;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+
+
