@@ -44,8 +44,8 @@
 
 #resume {
     background-color: #ddd;
-    height: 750px;
-    padding: 50px;
+    height: 2500px;
+    padding: 70px;
     padding-left: 180px;
     padding-right: 180px;
 }
@@ -72,12 +72,7 @@
 }
 
 .resume-info {
-  /*font-family: 'Arvo', serif;*/
-  /*font-family: 'Merriweather', serif;*/
-  /*font-family: 'Kreon', serif;*/
   font-family: 'PT Sans Narrow', sans-serif;
-  /*font-family: 'Montserrat', sans-serif;*/
-  /*font-family: 'Open Sans', sans-serif;*/
   font-size: 19px;
   letter-spacing: 0.1em;
 }
@@ -95,10 +90,10 @@
   line-height: 1.33333em;
   padding: 7px 18px;
   margin-top: 0.8em;
-  /*-webkit-border-radius: 8px;*/
-  /*-moz-border-radius: 8px;*/
-  /*-ms-border-radius: 8px;*/
-  /*-o-border-radius: 8px;*/
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
   border-radius: 8px;
 }
 
@@ -138,6 +133,7 @@ img.resume-photo:hover {
 #contact {
     background-color: #ddd;
     height: 685px;
+    padding: 70px;
 }
 
 #footer{
@@ -150,5 +146,80 @@ img.resume-photo:hover {
   line-height: 20px;
 }
 
+/* footer social icons */
+ul.social-network {
+  list-style: none;
+  display: inline;
+  margin-left:0 !important;
+  padding: 0;
+}
+ul.social-network li {
+  display: inline;
+  margin: 0 5px;
+}
+
+
+/* footer social icons */
+.social-network a.icoEmail:hover {
+  background-color: #4885ed;
+}
+.social-network a.icoGitHub:hover {
+  background-color: #6cc644;
+}
+.social-network a.icoLinkedin:hover {
+  background-color:#007bb7;
+}
+.social-network a.icoGoogle:hover {
+  background-color:#ea4335;
+}
+.social-network a.icoEmail:hover i, .social-network a.icoGitHub:hover i, .social-network a.icoLinkedin:hover i,
+.social-network a.icoGoogle:hover i {
+  color:#fff;
+}
+a.socialIcon:hover, .socialHoverClass {
+  color:#44BCDD;
+}
+
+.social-circle li a {
+  display: table;
+  position:relative;
+  margin:0 auto 0 auto;
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+  border-radius:50%;
+  text-align:center;
+  width: 60px;
+  height: 60px;
+  font-size:20px;
+}
+.social-circle li i {
+  margin:0;
+  line-height:60px;
+  text-align: center;
+}
+
+.social-circle li a:hover i, .triggeredHover {
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -ms--transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.social-circle i {
+  color: #fff;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.social-circle a {
+ background-color: #A9CCE3;
+}
 
 
