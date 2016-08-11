@@ -44,7 +44,7 @@
 
 #resume {
     background-color: #ddd;
-    height: 685px;
+    height: 750px;
     padding: 50px;
     padding-left: 180px;
     padding-right: 180px;
@@ -71,9 +71,35 @@
   border-bottom: 1px solid #CEC8C8;
 }
 
-#resume p {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
+.resume-info {
+  /*font-family: 'Arvo', serif;*/
+  /*font-family: 'Merriweather', serif;*/
+  /*font-family: 'Kreon', serif;*/
+  font-family: 'PT Sans Narrow', sans-serif;
+  /*font-family: 'Montserrat', sans-serif;*/
+  /*font-family: 'Open Sans', sans-serif;*/
+  font-size: 19px;
+  letter-spacing: 0.1em;
+}
+
+.resume-langs {
+  border: 1px solid #50a9d1;
+  margin-right: 10px;
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  width: auto;
+  display: inline-block;
+  font-size: 11px;
+  line-height: 1.33333em;
+  padding: 7px 18px;
+  margin-top: 0.8em;
+  /*-webkit-border-radius: 8px;*/
+  /*-moz-border-radius: 8px;*/
+  /*-ms-border-radius: 8px;*/
+  /*-o-border-radius: 8px;*/
+  border-radius: 8px;
 }
 
 img.resume-photo {
