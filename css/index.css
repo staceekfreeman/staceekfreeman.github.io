@@ -12,14 +12,38 @@
     text-transform: uppercase;
 }
 
-#about {
-    background-color: #A9CCE3;
-    height: 685px;
-    padding-top: 100px;
-    padding-bottom: 50px;
+.title {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 11px;
+  letter-spacing: 0.2em;
 }
 
-#about1 {
+#about {
+  background-color: #A9CCE3;
+  height: 685px;
+  padding-top: 120px;
+  /*padding-bottom: 50px;*/
+  /*padding: 120px;*/
+}
+
+.about-photo {
+  /*display: block;*/
+  margin: auto;
+  width: 300px;
+  border-radius: 50%;
+  float: left;
+  /*padding: 50px;*/
+  /*padding-left: 50px;*/
+
+}
+
+.about-body {
+  /*padding: 100px;*/
+}
+
+/*#about1 {
   border-radius: 5px;
   height: 500px;
   width: 750px;
@@ -31,31 +55,23 @@
   text-align: left;
   font-size: 12px;
   color: #fafafa;
-}
+}*/
 
-#console {
+/*#console {
   width: 670px;
   padding: 40px;
   height: 500px;
   width: 750px;
-  margin: 0 auto;
-  background: #383737;
-}
+  margin: 0 auto;*/
+  /*background: #383737;
+}*/
 
 #resume {
     background-color: #ddd;
-    height: 2500px;
+    height: 2075px;
     padding: 70px;
     padding-left: 180px;
     padding-right: 180px;
-}
-
-.resume-title {
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 11px;
-    letter-spacing: 0.2em;
 }
 
 .resume-section {
@@ -111,23 +127,24 @@ img.resume-photo {
   margin-left: -95px;
   /*margin-top: 5px;*/
   background-color: #fff;
-  opacity: 0.9;
+  /*opacity: 0.9;*/
   /*z-index: 0;*/
-  filter: grayscale(100%);
-  -webkit-filter: grayscale(100%);   /*For Webkit browsers */
+  /*filter: grayscale(100%);*/
+  /*-webkit-filter: grayscale(100%);   */ /*For Webkit browsers */
   filter: gray;  /* For IE 6 - 9 */
   /*-webkit-transition: all .4s ease;*/
 }
 
 img.resume-photo:hover {
-  filter: grayscale(0%);
-  -webkit-filter: grayscale(0%);
-  filter: none;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  filter: gray;
 }
 
 #work {
     background-color: #A9CCE3;
     height: 685px;
+    padding: 70px;
 }
 
 #contact {
